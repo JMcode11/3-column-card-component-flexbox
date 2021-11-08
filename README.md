@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [solution URL here](https://github.com/JMcode11/3-column-card-component-flexbox)
-- Live Site URL: [live site URL here](https://your-live-site-url.com)
+- Live Site URL: [live site URL here](https://jmcode11.github.io/3-column-card-component-flexbox/)
 
 ## My process
 
