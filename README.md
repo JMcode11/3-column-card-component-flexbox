@@ -22,12 +22,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![screenshot-desktop](https://github.com/JMcode11/3-column-card-component-flexbox/blob/main/screenshots/screenshot-desktop.png)
+![screenshot-mobile](https://github.com/JMcode11/3-column-card-component-flexbox/blob/main/screenshots/screenshot-mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL here](https://github.com/JMcode11/3-column-card-component-flexbox)
+- Live Site URL: [live site URL here](https://your-live-site-url.com)
 
 ## My process
 
