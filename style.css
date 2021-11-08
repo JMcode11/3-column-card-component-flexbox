@@ -1,0 +1,165 @@
+/*----------MOBILE--------*/
+:root {
+  --clr-primary-1: hsl(31, 77%, 52%);
+  --clr-primary-2: hsl(184, 100%, 22%);
+  --clr-primary-3: hsl(179, 100%, 13%);
+
+  --clr-neutral-1: hsla(0, 0%, 100%, 0.75);
+  --clr-neutral-2: hsl(0, 0%, 95%);
+
+  --ff-header: "Big Shoulders Display", cursive;
+  --ff-body: "Lexend Deca", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+
+body {
+  height: 100%;
+  background-color: var(--clr-neutral-1);
+  font-family: var(--ff-body);
+  font-size: 1.5rem;
+}
+
+.container {
+  min-height: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  font-family: var(--ff-header);
+  text-transform: uppercase;
+  font-size: 4rem;
+  color: var(--clr-neutral-1);
+  margin: 3rem 0;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 3rem;
+}
+
+.card {
+  color: var(--clr-neutral-2);
+  padding: 5rem;
+}
+
+.card-sedan {
+  border-radius: 1rem 1rem 0 0;
+  background-color: var(--clr-primary-1);
+}
+
+.card-suv {
+  background-color: var(--clr-primary-2);
+}
+
+.card-luxury {
+  background-color: var(--clr-primary-3);
+  border-radius: 0 0 1rem 1rem;
+}
+
+.btn {
+  font-family: var(--ff-body);
+  background-color: var(--clr-neutral-2);
+  border: 0.2rem var(--clr-neutral-2) solid;
+  padding: 1.4rem 3.5rem;
+  border-radius: 5rem;
+  transition: background-color 250ms ease-in-out;
+}
+
+.btn-sed {
+  color: var(--clr-primary-1);
+}
+
+.btn-suv {
+  color: var(--clr-primary-2);
+}
+
+.btn-lux {
+  color: var(--clr-primary-3);
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: var(--clr-neutral-2);
+  cursor: pointer;
+}
+
+.attribution {
+  text-align: center;
+  font-size: 1.7rem;
+  margin-top: 1rem;
+}
+
+.attribution a {
+  color: var(--clr-primary-2);
+  text-decoration: none;
+  transition: color 250ms ease-in-out;
+}
+
+.attribution a:hover {
+  color: var(--clr-primary-1);
+}
+/*-----TABLET-----*/
+@media (min-width: 600px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  img {
+    width: 7rem;
+  }
+
+  p {
+    max-width: 75ch;
+  }
+}
+/*-----LAPTOP/DESKTOP-----*/
+@media (min-width: 900px) {
+  .container {
+    align-items: center;
+  }
+
+  .flexbox {
+    display: flex;
+    margin: auto;
+  }
+
+  p {
+    margin-bottom: 8rem;
+    max-width: 23ch;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: unset;
+    text-align: unset;
+  }
+
+  .card-sedan {
+    border-radius: 1rem 0 0 1rem;
+  }
+
+  .card-luxury {
+    border-radius: 0 1rem 1rem 0;
+  }
+
+  .btn {
+    align-self: flex-start;
+    margin-top: auto;
+  }
+}
